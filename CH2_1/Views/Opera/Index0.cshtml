@@ -1,0 +1,25 @@
+﻿@model CH2_1.Models.Opera
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        @Model.Title 
+        @Html.DisplayNameFor(m => m.Title);
+        @Html.DisplayFor(m => m.Title);
+        <br>
+        @Model.Composer
+        <br>
+        @Model.Year
+    </div>
+</body>
+</html>
