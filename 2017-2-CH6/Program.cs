@@ -26,12 +26,11 @@ namespace _2017_2_CH6
         //過去是用overload的方式，現在可以改由泛行方法來處理，減少重複程式碼(DRY)
         //影片:https://www.youtube.com/watch?v=DGnLavb85Xg
 
-        static T Add2<T>(T x,T y)  //T為某種型別 
+        static T Add2<T>(T x, T y)  //T為某種型別 
         {
             dynamic i = x; //因為不知道他實際的型別 所以動態產生(跟var有何不同??)
             dynamic j = y;
             return i + j;
-
         }
     }
 }
