@@ -24,7 +24,6 @@ namespace _2017_2_CH7
             Mary.PrintData("三年四班");
 
 
-
         }
     }
 }
