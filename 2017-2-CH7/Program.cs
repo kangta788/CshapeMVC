@@ -23,7 +23,6 @@ namespace _2017_2_CH7
             Happy.ContactForm Mary= new Happy.ContactForm {ID=2,myName="Mary",myGender=2 };
             Mary.PrintData("三年四班");
 
-
-        }
+                    }
     }
 }
