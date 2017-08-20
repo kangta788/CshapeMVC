@@ -32,6 +32,12 @@ namespace Happy
 
     public class magazine : Book
     {
+        public magazine()
+        {
+            Console.WriteLine("建立了一本雜誌");
+        }
+
+        public string magazineType { get; set; }
 
         public override void Read()
         {
@@ -43,6 +49,13 @@ namespace Happy
 
     public class ebook : Book
     {
+        public ebook()
+        {
+            Console.WriteLine("建立了一本ebook");
+        }
+
+        public string ebookType { get; set; }
+
         public override void Read()
         {
             Console.WriteLine("電子書，以下載方式提供閱讀");
@@ -51,6 +64,12 @@ namespace Happy
 
     public class schoolbook : Book
     {
+
+        public schoolbook()
+        {
+            Console.WriteLine("建立了一本教科書");
+        }
+        public string schoolType { get; set; }
         public override void Read()
         {
             Console.WriteLine("教科書，由學校統一發放提供閱讀");
