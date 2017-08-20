@@ -17,10 +17,10 @@ namespace _2017_2_CH10_1
 
         //實體成員 有實作
         public string ID;
-        public void DisplayInfo() {
+        public void DisplayInfo()
+        {
             Console.WriteLine($"ID:{this.ID},Wheels:{this.Wheels}");
         }
-
     }
 
 
